@@ -19,7 +19,7 @@ function Counter( props ) {
     <div>
       <h1>Counter: {props.count}</h1>
       <button
-        onClick={() => props.onIncrement()}>
+        onClick={props.onIncrement}>
         증가
       </button>
     </div>
