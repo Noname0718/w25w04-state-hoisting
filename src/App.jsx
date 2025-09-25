@@ -14,12 +14,12 @@ function App() {
   )
 }
 
-function Counter( props ) {
+function Counter( count, onIncrement ) {
   return (
     <div>
-      <h1>Counter: {props.count}</h1>
+      <h1>Counter: {count}</h1>
       <button
-        onClick={props.onIncrement}>
+        onClick={onIncrement}>
         증가
       </button>
     </div>
